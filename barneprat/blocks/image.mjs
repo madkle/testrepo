@@ -17,7 +17,7 @@ class Image extends BaseBlock {
         this.container.appendChild(this.img);
         this.target = this.img;
     }
-
+    
 }
 
 

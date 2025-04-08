@@ -16,3 +16,6 @@
 .overskrift2 {
     color: greenyellow;
 }
+html, body {
+    overscroll-behavior-y: contain;
+  }
