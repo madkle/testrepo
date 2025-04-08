@@ -17,6 +17,7 @@
     color: greenyellow;
 }
 html, body {
+    overflow: hidden;
     overscroll-behavior-y: contain;
     background-color:aquamarine;
   }
