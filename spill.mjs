@@ -26,6 +26,7 @@ Start(Velkommen);
 // Disse scenene er her som eksempler. Du kan ta dem bort eller endre dem. 
 
 function Velkommen() {
+    /*
     const velkommen = new Blocks.Text("Trykk på denne teksten", { style: "overskrift", x: 0, y: 0, width: 100, height: 100 });
     const velkommen2 = new Blocks.Text("Trykk på denne teksten 2", { style: "overskrift", x: 700, y: 0, width: 100, height: 100 });
     const velkommen3 = new Blocks.Text("Trykk på denne teksten 3", { style: "overskrift", x: 0, y: 600, width: 100, height: 100 });
@@ -113,6 +114,7 @@ function Velkommen() {
         }
         //GaaTil(scene2);
     })
+        */
     const tekst = new Blocks.Text("Dra denne teksten", { style: "overskrift", x: 0, y: 0, width: 100, height: 100 });
     Actions.Drag(tekst,"test");
 }
