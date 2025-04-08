@@ -113,8 +113,8 @@ function Velkommen() {
         }
         //GaaTil(scene2);
     })
-    const test = new Blocks.Text("Dra denne teksten", { style: "overskrift", x: 0, y: 0, width: 100, height: 100 });
-    Actions.Drag(test,"test");
+    const tekst = new Blocks.Text("Dra denne teksten", { style: "overskrift", x: 0, y: 0, width: 100, height: 100 });
+    Actions.Drag(tekst,"test");
 }
 
 function scene2() {
